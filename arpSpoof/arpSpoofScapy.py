@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 import os
 from argparse import ArgumentParser
@@ -88,7 +87,6 @@ def poison(configs):
     with open(IP_FORWARD, 'w') as fd:
         fd.write('1')
     poisonExecute(configs)
-
 
 def main():
     configs = configuration()
