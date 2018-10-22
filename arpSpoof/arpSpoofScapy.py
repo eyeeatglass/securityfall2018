@@ -3,9 +3,9 @@ import os
 from argparse import ArgumentParser
 from scapy.all import *
 
-IP_FORWARD = '/proc/sys/net/ipv4/ip_forward'
 TIMEOUT = 3
 RETRY = 12
+IP_FORWARD = '/proc/sys/net/ipv4/ip_forward'
 
 def configuration():
     parser = ArgumentParser()
